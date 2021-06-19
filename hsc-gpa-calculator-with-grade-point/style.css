@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 1.8em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0 20px 0;
+    transition: 0.2s;
+}
+
+main {
+    max-width: 720px;
+    margin: auto;
+}
+
+form {
+    line-height: 32px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 20%;
+}
+
+form label {
+    text-transform: capitalize;
+}
+
+form input {
+    float: right;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px dashed;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input[type="radio"] {
+    float: inherit;
+    width: fit-content;
+    margin: 0 5px 0 10px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    float: inherit;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 10px;
+    border: 1px dotted gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+    min-height: 50px;
+}
+
+span {
+    display: none;
+    color: green;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    margin: 0;
+    padding: 30px 50px 20px 50px;
+    text-align: center;
+}
+
+footer,
+footer i,
+footer strong {
+    font-size: 0.75em;
+}

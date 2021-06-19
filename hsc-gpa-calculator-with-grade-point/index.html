@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>JIS :: GPA Calculator</title>
+    <link rel="icon" href="https://www.github.com/mrdeveloperjis.png" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="author" content="MD. JAHIDUL ISLAM SUJAN">
+    <meta name="copyright" content="The Owner">
+    <meta name="description" content="GPA calculator of HSC.">
+    <meta http-equiv="refresh" content="9000">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://kit.fontawesome.com/234f83bcd8.js" crossorigin="MrDevelopJIS"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>gpa calculator</h1>
+        </nav>
+    </header>
+
+    <main>
+
+        <form id="form" action="">
+
+            <label for="s1">bangla</label>
+            <input type="text" id="s1" name="s1" placeholder="Enter gp" required><br>
+
+            <label for="s2">english</label>
+            <input type="text" id="s2" name="s2" placeholder="Enter gp" required><br>
+
+            <label for="s3">ICT</label>
+            <input type="text" id="s3" name="s3" placeholder="Enter gp" required><br>
+
+            <label for="s4">physics</label>
+            <input type="text" id="s4" name="s4" placeholder="Enter gp" required><br>
+
+            <label for="s5">chemistry</label>
+            <input type="text" id="s5" name="s5" placeholder="Enter gp" required><br>
+
+            <label for="s6">biology</label>
+            <input type="text" id="s6" name="s6" placeholder="Enter gp" required><br>
+
+            <label for="s7">higher math</label>
+            <input type="text" id="s7" name="s7" placeholder="Enter gp" required><br>
+
+            <i>Optional Subject :</i>
+            <input type="radio" id="bio" name="optSub" value="0" required><label for="bio">biology</label>
+            <input type="radio" id="hm" name="optSub" value="1"><label for="hm">higher math</label>
+
+            <div>
+                <input type="reset">
+                <input type="submit">
+            </div>
+
+        </form>
+
+        <div><span></span></div>
+
+        <table>
+            <tr>
+                <th>Number</th>
+                <th>Grade</th>
+                <th>Grade Point (GP)</th>
+            </tr>
+            <tr>
+                <td>80-100</td>
+                <td>A+</td>
+                <td>5.00</td>
+            </tr>
+            <tr>
+                <td>70-79</td>
+                <td>A</td>
+                <td>4.00</td>
+            </tr>
+            <tr>
+                <td>60-69</td>
+                <td>A-</td>
+                <td>3.50</td>
+            </tr>
+            <tr>
+                <td>50-59</td>
+                <td>B</td>
+                <td>3.00</td>
+            </tr>
+            <tr>
+                <td>40-49</td>
+                <td>C</td>
+                <td>2.00</td>
+            </tr>
+            <tr>
+                <td>33-39</td>
+                <td>D</td>
+                <td>1.00</td>
+            </tr>
+            <tr>
+                <td>00-33</td>
+                <td>F</td>
+                <td>0.00</td>
+            </tr>
+        </table>
+
+
+    </main>
+
+    <footer>
+        Copyright <i class="far fa-copyright"></i> 2021 | <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+        by <strong>MR DEVELOPER JIS</strong> | All right reserved
+
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
