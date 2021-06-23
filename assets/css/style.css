@@ -1,0 +1,15 @@
+/*---------- header ----------*/
+
+.github-img {
+    width: 100%;
+    max-width: 128px;
+}
+
+/*---------- card ----------*/
+
+.card-body img {
+    width: 100%;
+    max-height: 300px;
+}
+
+

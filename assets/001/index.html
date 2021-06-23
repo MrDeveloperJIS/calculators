@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="shortcut icon" href="../favicon/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="scss\style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="my-calculator">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="cal-wap d-flex justify-content-center mt-3 ">
+
+                        <div class="formstyle">
+                            <form action="#" name="forms" class="my-all-btn ">
+
+                                <div class="up-display">
+                                    <input type="text" name="answer">
+                                </div>
+
+                                <div class="down-btn">
+
+                                    <div class="cal-one d-flex justify-content-between">
+                                        <input class="clrbtn" type="button" value="AC"
+                                            onclick="forms.answer.value = '' ">
+                                        <input class="clrbtn" type="button" value=" ( "
+                                            onclick="forms.answer.value += '(' ">
+                                        <input class="clrbtn" type="button" value=" ) "
+                                            onclick="forms.answer.value += ')' ">
+                                        <input class="clrbtn" type="button" value=" / "
+                                            onclick="forms.answer.value += '/' ">
+                                    </div>
+
+                                    <div class="cal-one d-flex justify-content-between">
+                                        <input type="button" value=" 7 " onclick="forms.answer.value += '7' ">
+                                        <input type="button" value=" 8 " onclick="forms.answer.value += '8' ">
+                                        <input type="button" value=" 9 " onclick="forms.answer.value += '9' ">
+                                        <input class="clrbtn" type="button" value=" x "
+                                            onclick="forms.answer.value += '*' ">
+                                    </div>
+
+                                    <div class="cal-one d-flex justify-content-between">
+                                        <input type="button" value=" 4 " onclick="forms.answer.value += '4' ">
+                                        <input type="button" value=" 5 " onclick="forms.answer.value += '5' ">
+                                        <input type="button" value=" 6 " onclick="forms.answer.value += '6' ">
+                                        <input class="clrbtn" type="button" value=" - "
+                                            onclick="forms.answer.value += '-' ">
+                                    </div>
+
+                                    <div class="cal-one d-flex justify-content-between">
+                                        <input type="button" value=" 1 " onclick="forms.answer.value += '1' ">
+                                        <input type="button" value=" 2 " onclick="forms.answer.value += '2' ">
+                                        <input type="button" value=" 3 " onclick="forms.answer.value += '3' ">
+                                        <input class="clrbtn" type="button" value=" + "
+                                            onclick="forms.answer.value += '+' ">
+                                    </div>
+
+
+                                    <div class="cal-one d-flex justify-content-between">
+                                        <input type="button" value=" 00 " onclick="forms.answer.value += '00' ">
+                                        <input type="button" value=" 0 " onclick="forms.answer.value += '0' ">
+                                        <input type="button" value=" . " onclick="forms.answer.value += '.' ">
+                                        <input class="clrbtn" type="button" value=" = "
+                                            onclick="forms.answer.value = eval (forms.answer.value) ">
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
